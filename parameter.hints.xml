@@ -6,6 +6,7 @@
       </blacklist>
       <blacklist language="TypeScript">
         <added pattern="Window.requestAnimationFrame(callback)" />
+        <added pattern="Array.filter(callbackfn,thisArg)" />
       </blacklist>
     </blacklists>
   </component>
