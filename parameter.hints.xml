@@ -4,6 +4,9 @@
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
       </blacklist>
+      <blacklist language="TypeScript">
+        <added pattern="Window.requestAnimationFrame(callback)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
