@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
