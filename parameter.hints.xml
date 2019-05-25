@@ -1,13 +1,16 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="Java">
-        <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
-      </blacklist>
       <blacklist language="TypeScript">
         <added pattern="Window.requestAnimationFrame(callback)" />
         <added pattern="Array.filter(callbackfn,thisArg)" />
         <added pattern="Array.map(callbackfn,thisArg)" />
+      </blacklist>
+      <blacklist language="Java">
+        <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
+      </blacklist>
+      <blacklist language="ECMAScript 6">
+        <added pattern="String.replace(searchValue,replaceValue)" />
       </blacklist>
     </blacklists>
   </component>
