@@ -12,6 +12,9 @@
       <blacklist language="ECMAScript 6">
         <added pattern="String.replace(searchValue,replaceValue)" />
       </blacklist>
+      <blacklist language="JavaScript">
+        <added pattern="Array.forEach(callbackfn,thisArg)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
