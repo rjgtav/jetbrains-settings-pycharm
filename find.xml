@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ies" />
+    <option name="FILE_MASK" value="*.lua" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,7 +16,7 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.py</mask>
-    <mask>*.lua</mask>
     <mask>*.ies</mask>
+    <mask>*.lua</mask>
   </component>
 </application>
