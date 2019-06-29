@@ -15,6 +15,7 @@
       <blacklist language="JavaScript">
         <added pattern="Array.forEach(callbackfn,thisArg)" />
         <added pattern="Array.map(callbackfn,thisArg)" />
+        <added pattern="Math.abs(x)" />
       </blacklist>
     </blacklists>
   </component>
