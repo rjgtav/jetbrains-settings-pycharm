@@ -16,6 +16,8 @@
         <added pattern="Array.forEach(callbackfn,thisArg)" />
         <added pattern="Array.map(callbackfn,thisArg)" />
         <added pattern="Math.abs(x)" />
+        <added pattern="EnumMulti.constructor(name,value)" />
+        <added pattern="Enum.constructor(name,value)" />
       </blacklist>
     </blacklists>
   </component>
