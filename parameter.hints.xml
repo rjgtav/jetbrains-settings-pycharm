@@ -5,6 +5,7 @@
         <added pattern="Window.requestAnimationFrame(callback)" />
         <added pattern="Array.filter(callbackfn,thisArg)" />
         <added pattern="Array.map(callbackfn,thisArg)" />
+        <added pattern="filter(predicate,thisArg)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
