@@ -19,6 +19,7 @@
         <added pattern="Math.abs(x)" />
         <added pattern="EnumMulti.constructor(name,value)" />
         <added pattern="Enum.constructor(name,value)" />
+        <added pattern="_installProgress(progress,total,url)" />
       </blacklist>
     </blacklists>
   </component>
