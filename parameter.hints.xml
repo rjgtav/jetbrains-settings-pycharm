@@ -6,6 +6,7 @@
         <added pattern="Array.filter(callbackfn,thisArg)" />
         <added pattern="Array.map(callbackfn,thisArg)" />
         <added pattern="filter(predicate,thisArg)" />
+        <added pattern="Promise(executor)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
