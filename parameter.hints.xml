@@ -8,6 +8,7 @@
         <added pattern="filter(predicate,thisArg)" />
         <added pattern="Promise(executor)" />
         <added pattern="TOSUrlService.Data(url)" />
+        <added pattern="Observable.subscribe(next,error,complete)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
