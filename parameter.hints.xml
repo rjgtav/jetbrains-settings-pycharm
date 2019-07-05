@@ -7,6 +7,7 @@
         <added pattern="Array.map(callbackfn,thisArg)" />
         <added pattern="filter(predicate,thisArg)" />
         <added pattern="Promise(executor)" />
+        <added pattern="TOSUrlService.Data(url)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
