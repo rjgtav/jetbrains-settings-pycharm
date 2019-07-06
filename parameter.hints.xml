@@ -11,6 +11,7 @@
         <added pattern="Observable.subscribe(next,error,complete)" />
         <added pattern="Math.round(x)" />
         <added pattern="Subject.next(value)" />
+        <added pattern="TOSUrlService.Url(url)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
