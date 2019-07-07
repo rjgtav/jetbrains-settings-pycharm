@@ -12,6 +12,7 @@
         <added pattern="Math.round(x)" />
         <added pattern="Subject.next(value)" />
         <added pattern="TOSUrlService.Url(url)" />
+        <added pattern="complete(value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
