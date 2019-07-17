@@ -13,6 +13,8 @@
         <added pattern="Subject.next(value)" />
         <added pattern="TOSUrlService.Url(url)" />
         <added pattern="complete(value)" />
+        <added pattern="map(project,thisArg)" />
+        <added pattern="Math.floor(x)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
