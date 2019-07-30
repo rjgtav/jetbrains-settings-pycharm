@@ -16,6 +16,7 @@
         <added pattern="map(project,thisArg)" />
         <added pattern="Math.floor(x)" />
         <added pattern="Array.forEach(callbackfn,thisArg)" />
+        <added pattern="post(path,handlers)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
