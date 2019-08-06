@@ -18,6 +18,7 @@
         <added pattern="Array.forEach(callbackfn,thisArg)" />
         <added pattern="post(path,handlers)" />
         <added pattern="TOSDatabaseService.query(schema,query,values)" />
+        <added pattern="String.split(separator,limit)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
