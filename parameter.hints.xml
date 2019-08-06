@@ -19,6 +19,7 @@
         <added pattern="post(path,handlers)" />
         <added pattern="TOSDatabaseService.query(schema,query,values)" />
         <added pattern="String.split(separator,limit)" />
+        <added pattern="Enum$Skill$Simony.constructor(value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
