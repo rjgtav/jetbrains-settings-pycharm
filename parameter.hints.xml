@@ -20,6 +20,7 @@
         <added pattern="TOSDatabaseService.query(schema,query,values)" />
         <added pattern="String.split(separator,limit)" />
         <added pattern="Enum$Skill$Simony.constructor(value)" />
+        <added pattern="Math.ceil(x)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
