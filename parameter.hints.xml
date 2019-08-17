@@ -24,6 +24,7 @@
         <added pattern="Array.sort(compareFn)" />
         <added pattern="handler$(handler)" />
         <added pattern="CitiusSession.update(json)" />
+        <added pattern="JWTToken.update(json)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
