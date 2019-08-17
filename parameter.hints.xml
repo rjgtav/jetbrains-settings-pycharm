@@ -23,6 +23,7 @@
         <added pattern="Math.ceil(x)" />
         <added pattern="Array.sort(compareFn)" />
         <added pattern="handler$(handler)" />
+        <added pattern="CitiusSession.update(json)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
