@@ -22,6 +22,7 @@
         <added pattern="Enum$Skill$Simony.constructor(value)" />
         <added pattern="Math.ceil(x)" />
         <added pattern="Array.sort(compareFn)" />
+        <added pattern="handler$(handler)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
