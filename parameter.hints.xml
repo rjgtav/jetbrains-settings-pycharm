@@ -41,6 +41,7 @@
         <added pattern="Enum.constructor(name,value)" />
         <added pattern="_installProgress(progress,total,url)" />
         <added pattern="String.replace(searchValue,replaceValue)" />
+        <added pattern="PromiseLike.then(onfulfilled,onrejected)" />
       </blacklist>
     </blacklists>
   </component>
