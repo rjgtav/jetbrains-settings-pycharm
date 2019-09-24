@@ -42,6 +42,7 @@
         <added pattern="_installProgress(progress,total,url)" />
         <added pattern="String.replace(searchValue,replaceValue)" />
         <added pattern="PromiseLike.then(onfulfilled,onrejected)" />
+        <added pattern="Math.round(x)" />
       </blacklist>
     </blacklists>
   </component>
