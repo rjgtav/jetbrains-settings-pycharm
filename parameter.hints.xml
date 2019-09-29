@@ -27,6 +27,7 @@
         <added pattern="JWTToken.update(json)" />
         <added pattern="delete(path,handlers)" />
         <added pattern="LUAService.call(functionName,functionArgs)" />
+        <added pattern="FlexSearchDocument.setEnum(entry,key,enum$)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
