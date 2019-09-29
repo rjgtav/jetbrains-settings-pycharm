@@ -26,6 +26,7 @@
         <added pattern="CitiusSession.update(json)" />
         <added pattern="JWTToken.update(json)" />
         <added pattern="delete(path,handlers)" />
+        <added pattern="LUAService.call(functionName,functionArgs)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
