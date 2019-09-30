@@ -28,6 +28,9 @@
         <added pattern="delete(path,handlers)" />
         <added pattern="LUAService.call(functionName,functionArgs)" />
         <added pattern="FlexSearchDocument.setEnum(entry,key,enum$)" />
+        <added pattern="FlexSearchDocument.setEnum(entry,key,enum$,value)" />
+        <added pattern="FlexSearchEnum.$id($enum,value)" />
+        <added pattern="FlexSearchDocument.setEnumMulti(entry,key,enum$,value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
