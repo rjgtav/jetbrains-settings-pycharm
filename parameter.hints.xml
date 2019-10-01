@@ -33,6 +33,8 @@
         <added pattern="FlexSearchDocument.setEnumMulti(entry,key,enum$,value)" />
         <added pattern="FastGlob.sync(source,options)" />
         <added pattern="String.replace(searchValue,replaceValue)" />
+        <added pattern="FlexSearchEnum$Reference.$id($enum,value)" />
+        <added pattern="FlexSearchEnum$Reference.$id(enum$,value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
