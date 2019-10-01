@@ -36,6 +36,7 @@
         <added pattern="FlexSearchEnum$Reference.$id($enum,value)" />
         <added pattern="FlexSearchEnum$Reference.$id(enum$,value)" />
         <added pattern="Array.findIndex(predicate,thisArg)" />
+        <added pattern="Array.find(predicate,thisArg)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
