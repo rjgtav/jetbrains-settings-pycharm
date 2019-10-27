@@ -38,6 +38,7 @@
         <added pattern="Array.findIndex(predicate,thisArg)" />
         <added pattern="Array.find(predicate,thisArg)" />
         <added pattern="tap(next,error,complete)" />
+        <added pattern="put(path,handlers)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
