@@ -39,6 +39,7 @@
         <added pattern="Array.find(predicate,thisArg)" />
         <added pattern="tap(next,error,complete)" />
         <added pattern="put(path,handlers)" />
+        <added pattern="switchMap(project)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
