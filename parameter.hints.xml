@@ -40,6 +40,7 @@
         <added pattern="tap(next,error,complete)" />
         <added pattern="put(path,handlers)" />
         <added pattern="switchMap(project)" />
+        <added pattern="EventEmitter.subscribe(generatorOrNext,error,complete)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
