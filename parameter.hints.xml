@@ -41,6 +41,7 @@
         <added pattern="put(path,handlers)" />
         <added pattern="switchMap(project)" />
         <added pattern="EventEmitter.subscribe(generatorOrNext,error,complete)" />
+        <added pattern="NgZone.run(fn,applyThis,applyArgs)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
