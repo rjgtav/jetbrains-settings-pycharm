@@ -42,6 +42,7 @@
         <added pattern="switchMap(project)" />
         <added pattern="EventEmitter.subscribe(generatorOrNext,error,complete)" />
         <added pattern="NgZone.run(fn,applyThis,applyArgs)" />
+        <added pattern="TOSUrlService.join(url1,url2)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
