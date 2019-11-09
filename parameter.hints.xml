@@ -61,6 +61,9 @@
         <added pattern="PromiseLike.then(onfulfilled,onrejected)" />
         <added pattern="Math.round(x)" />
       </blacklist>
+      <blacklist language="Angular HTML Template">
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.onToggle3D(value)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
