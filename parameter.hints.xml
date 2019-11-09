@@ -67,6 +67,7 @@
         <added pattern="EntityTooltipV2InfoEquipmentComponent.onToggle3D(value)" />
         <added pattern="HeaderComponent.themeSelect(value)" />
         <added pattern="EntityTooltipV2InfoEquipmentComponent.on3DChange(value)" />
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.onChange3D(value)" />
       </blacklist>
     </blacklists>
   </component>
