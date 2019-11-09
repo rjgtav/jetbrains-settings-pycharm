@@ -65,6 +65,7 @@
       </blacklist>
       <blacklist language="Angular HTML Template">
         <added pattern="EntityTooltipV2InfoEquipmentComponent.onToggle3D(value)" />
+        <added pattern="HeaderComponent.themeSelect(value)" />
       </blacklist>
     </blacklists>
   </component>
