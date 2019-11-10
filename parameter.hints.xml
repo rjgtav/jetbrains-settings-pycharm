@@ -45,6 +45,8 @@
         <added pattern="TOSUrlService.join(url1,url2)" />
         <added pattern="NgZone.runOutsideAngular(fn)" />
         <added pattern="TOSUrlService.AssetRegion(url)" />
+        <added pattern="Int32Array.filter(callbackfn,thisArg)" />
+        <added pattern="Int32Array.forEach(callbackfn,thisArg)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
