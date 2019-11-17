@@ -47,12 +47,19 @@
         <added pattern="TOSUrlService.AssetRegion(url)" />
         <added pattern="Int32Array.filter(callbackfn,thisArg)" />
         <added pattern="Int32Array.forEach(callbackfn,thisArg)" />
+        <added pattern="Math.min(values)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
       </blacklist>
       <blacklist language="ECMAScript 6">
         <added pattern="String.replace(searchValue,replaceValue)" />
+      </blacklist>
+      <blacklist language="Angular HTML Template">
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.onToggle3D(value)" />
+        <added pattern="HeaderComponent.themeSelect(value)" />
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.on3DChange(value)" />
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.onChange3D(value)" />
       </blacklist>
       <blacklist language="JavaScript">
         <added pattern="Array.forEach(callbackfn,thisArg)" />
@@ -64,12 +71,6 @@
         <added pattern="String.replace(searchValue,replaceValue)" />
         <added pattern="PromiseLike.then(onfulfilled,onrejected)" />
         <added pattern="Math.round(x)" />
-      </blacklist>
-      <blacklist language="Angular HTML Template">
-        <added pattern="EntityTooltipV2InfoEquipmentComponent.onToggle3D(value)" />
-        <added pattern="HeaderComponent.themeSelect(value)" />
-        <added pattern="EntityTooltipV2InfoEquipmentComponent.on3DChange(value)" />
-        <added pattern="EntityTooltipV2InfoEquipmentComponent.onChange3D(value)" />
       </blacklist>
     </blacklists>
   </component>
