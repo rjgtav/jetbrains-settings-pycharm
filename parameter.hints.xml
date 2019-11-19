@@ -60,6 +60,7 @@
         <added pattern="HeaderComponent.themeSelect(value)" />
         <added pattern="EntityTooltipV2InfoEquipmentComponent.on3DChange(value)" />
         <added pattern="EntityTooltipV2InfoEquipmentComponent.onChange3D(value)" />
+        <added pattern="EntityTooltipV2TradabilityComponent.isTradable(key)" />
       </blacklist>
       <blacklist language="JavaScript">
         <added pattern="Array.forEach(callbackfn,thisArg)" />
