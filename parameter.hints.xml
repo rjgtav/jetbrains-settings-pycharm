@@ -48,6 +48,8 @@
         <added pattern="Int32Array.filter(callbackfn,thisArg)" />
         <added pattern="Int32Array.forEach(callbackfn,thisArg)" />
         <added pattern="Math.min(values)" />
+        <added pattern="TOSItemEquipmentV2.$Reinforce_2$Update(value)" />
+        <added pattern="TOSItemEquipmentV2.$Transcend$Update(value)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
