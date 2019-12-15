@@ -51,6 +51,9 @@
         <added pattern="TOSItemEquipmentV2.$Reinforce_2$Update(value)" />
         <added pattern="TOSItemEquipmentV2.$Transcend$Update(value)" />
         <added pattern="CronService.cronOffice(factory)" />
+        <added pattern="Console.time(label)" />
+        <added pattern="Console.timeEnd(label)" />
+        <added pattern="Console.warn(message,optionalParams)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
