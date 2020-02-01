@@ -5,4 +5,5 @@
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
+  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" restartIfHotSwapFailed="true" />
 </application>
