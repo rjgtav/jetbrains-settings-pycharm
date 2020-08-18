@@ -57,6 +57,7 @@
         <added pattern="StripeService.getSubscription(id)" />
         <added pattern="head(path,handlers)" />
         <added pattern="lunr.Query.term(term,options)" />
+        <added pattern="Math.abs(x)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
