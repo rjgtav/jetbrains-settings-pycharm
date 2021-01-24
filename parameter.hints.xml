@@ -58,6 +58,7 @@
         <added pattern="head(path,handlers)" />
         <added pattern="lunr.Query.term(term,options)" />
         <added pattern="Math.abs(x)" />
+        <added pattern="handleAuthenticated(handler)" />
       </blacklist>
       <blacklist language="Java">
         <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
