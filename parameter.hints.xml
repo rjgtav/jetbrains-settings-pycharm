@@ -1,0 +1,89 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript">
+        <added pattern="Window.requestAnimationFrame(callback)" />
+        <added pattern="Array.filter(callbackfn,thisArg)" />
+        <added pattern="Array.map(callbackfn,thisArg)" />
+        <added pattern="filter(predicate,thisArg)" />
+        <added pattern="Promise(executor)" />
+        <added pattern="TOSUrlService.Data(url)" />
+        <added pattern="Observable.subscribe(next,error,complete)" />
+        <added pattern="Math.round(x)" />
+        <added pattern="Subject.next(value)" />
+        <added pattern="TOSUrlService.Url(url)" />
+        <added pattern="complete(value)" />
+        <added pattern="map(project,thisArg)" />
+        <added pattern="Math.floor(x)" />
+        <added pattern="Array.forEach(callbackfn,thisArg)" />
+        <added pattern="post(path,handlers)" />
+        <added pattern="TOSDatabaseService.query(schema,query,values)" />
+        <added pattern="String.split(separator,limit)" />
+        <added pattern="Enum$Skill$Simony.constructor(value)" />
+        <added pattern="Math.ceil(x)" />
+        <added pattern="Array.sort(compareFn)" />
+        <added pattern="handler$(handler)" />
+        <added pattern="CitiusSession.update(json)" />
+        <added pattern="JWTToken.update(json)" />
+        <added pattern="delete(path,handlers)" />
+        <added pattern="LUAService.call(functionName,functionArgs)" />
+        <added pattern="FlexSearchDocument.setEnum(entry,key,enum$)" />
+        <added pattern="FlexSearchDocument.setEnum(entry,key,enum$,value)" />
+        <added pattern="FlexSearchEnum.$id($enum,value)" />
+        <added pattern="FlexSearchDocument.setEnumMulti(entry,key,enum$,value)" />
+        <added pattern="FastGlob.sync(source,options)" />
+        <added pattern="String.replace(searchValue,replaceValue)" />
+        <added pattern="FlexSearchEnum$Reference.$id($enum,value)" />
+        <added pattern="FlexSearchEnum$Reference.$id(enum$,value)" />
+        <added pattern="Array.findIndex(predicate,thisArg)" />
+        <added pattern="Array.find(predicate,thisArg)" />
+        <added pattern="tap(next,error,complete)" />
+        <added pattern="put(path,handlers)" />
+        <added pattern="switchMap(project)" />
+        <added pattern="EventEmitter.subscribe(generatorOrNext,error,complete)" />
+        <added pattern="NgZone.run(fn,applyThis,applyArgs)" />
+        <added pattern="TOSUrlService.join(url1,url2)" />
+        <added pattern="NgZone.runOutsideAngular(fn)" />
+        <added pattern="TOSUrlService.AssetRegion(url)" />
+        <added pattern="Int32Array.filter(callbackfn,thisArg)" />
+        <added pattern="Int32Array.forEach(callbackfn,thisArg)" />
+        <added pattern="Math.min(values)" />
+        <added pattern="TOSItemEquipmentV2.$Reinforce_2$Update(value)" />
+        <added pattern="TOSItemEquipmentV2.$Transcend$Update(value)" />
+        <added pattern="CronService.cronOffice(factory)" />
+        <added pattern="Console.time(label)" />
+        <added pattern="Console.timeEnd(label)" />
+        <added pattern="Console.warn(message,optionalParams)" />
+        <added pattern="StripeService.getSubscription(id)" />
+        <added pattern="head(path,handlers)" />
+        <added pattern="lunr.Query.term(term,options)" />
+        <added pattern="Math.abs(x)" />
+        <added pattern="handleAuthenticated(handler)" />
+      </blacklist>
+      <blacklist language="Java">
+        <added pattern="org.hibernate.query.QueryProducer.createQuery(queryString)" />
+      </blacklist>
+      <blacklist language="ECMAScript 6">
+        <added pattern="String.replace(searchValue,replaceValue)" />
+      </blacklist>
+      <blacklist language="Angular HTML Template">
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.onToggle3D(value)" />
+        <added pattern="HeaderComponent.themeSelect(value)" />
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.on3DChange(value)" />
+        <added pattern="EntityTooltipV2InfoEquipmentComponent.onChange3D(value)" />
+        <added pattern="EntityTooltipV2TradabilityComponent.isTradable(key)" />
+      </blacklist>
+      <blacklist language="JavaScript">
+        <added pattern="Array.forEach(callbackfn,thisArg)" />
+        <added pattern="Array.map(callbackfn,thisArg)" />
+        <added pattern="Math.abs(x)" />
+        <added pattern="EnumMulti.constructor(name,value)" />
+        <added pattern="Enum.constructor(name,value)" />
+        <added pattern="_installProgress(progress,total,url)" />
+        <added pattern="String.replace(searchValue,replaceValue)" />
+        <added pattern="PromiseLike.then(onfulfilled,onrejected)" />
+        <added pattern="Math.round(x)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
