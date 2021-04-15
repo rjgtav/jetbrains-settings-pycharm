@@ -8,6 +8,7 @@
     <option name="CARET_COLOR" value="bbbbbb" />
     <option name="CARET_ROW_COLOR" value="f0f0f" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1e1e1e" />
+    <option name="DOCUMENTATION_COLOR" value="" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
@@ -28,6 +29,7 @@
     <option name="LINE_NUMBERS_COLOR" value="569cd6" />
     <option name="METHOD_SEPARATORS_COLOR" value="f0f0f" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="dcdcdc" />
@@ -35,6 +37,7 @@
     <option name="SELECTION_BACKGROUND" value="3399ff" />
     <option name="SELECTION_FOREGROUND" value="dcdcdc" />
     <option name="TEARLINE_COLOR" value="f0f0f" />
+    <option name="TOOLTIP" value="" />
     <option name="WHITESPACES" value="505050" />
   </colors>
   <attributes>
@@ -511,9 +514,19 @@
         <option name="FOREGROUND" value="dcdcdc" />
       </value>
     </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
+      </value>
+    </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="7a7a7a" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="5b5b5b" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
