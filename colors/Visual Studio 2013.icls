@@ -27,6 +27,7 @@
     <option name="GUTTER_BACKGROUND" value="1e1e1e" />
     <option name="INDENT_GUIDE" value="3399ff" />
     <option name="LINE_NUMBERS_COLOR" value="569cd6" />
+    <option name="LOOKUP_COLOR" value="" />
     <option name="METHOD_SEPARATORS_COLOR" value="f0f0f" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECENT_LOCATIONS_SELECTION" value="" />
