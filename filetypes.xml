@@ -4,17 +4,15 @@
     <extensionMap>
       <mapping pattern="20220227_remove_ghost.sql" type="AUTO_DETECTED" />
       <mapping pattern="CNAME" type="AUTO_DETECTED" />
-      <mapping pattern=".env.*" type="Env File" />
-      <mapping ext="env" type="Env File" />
       <mapping pattern="icu-config" type="PLAIN_TEXT" />
+      <mapping pattern=".docker-production" type="PLAIN_TEXT" />
       <mapping pattern=".env-docker" type="PLAIN_TEXT" />
       <mapping pattern="release" type="PLAIN_TEXT" />
       <mapping pattern=".env-production" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".docker-production" type="PLAIN_TEXT" />
       <mapping pattern=".nutripedia.pem" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="ProcFile" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
@@ -24,6 +22,8 @@
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
+      <mapping ext="env" type="Env File" />
+      <mapping pattern=".env.*" type="Env File" />
     </extensionMap>
   </component>
 </application>
